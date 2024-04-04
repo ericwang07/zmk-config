@@ -177,8 +177,8 @@
     num_layer {
       bindings = <
    &kp N1           &kp N2           &kp N3           &kp N4           &kp N5                   &kp N6           &kp N7           &kp N8           &kp N9           &kp N0
-   &kp TILDE        &kp AMPS         &kp STAR         &kp EXCL         &kp SEMI                 &kp LBKT         &kp LBRC         &kp LPAR         &kp PLUS         &kp  MINUS
-   &hm LCTRL GRAVE  &hm LSFT PIPE    &kp DLLR         &kp BLSH         &kp COLON                &kp RBKT         &kp RBRC         &kp RPAR         &hm RGUI EQUAL   &hmt RCTRL UNDER
+   &kp TILDE        &kp AMPS         &kp LPAR         &kp LBRC         &kp LBKT                 &kp PLUS         &kp MINUS        &kp SEMI         &kp STAR         &kp EXCL
+   &hm LCTRL GRAVE  &hm LSFT PIPE    &kp RPAR         &kp RBRC         &kp RBKT                 &kp EQUAL        &kp UNDER        &kp COLON        &hm RGUI DLLR    &hmt RCTRL BSLH
                                      &mo SYSTEM       &trans           &trans                   &trans           &trans           &trans
       >;
     };
