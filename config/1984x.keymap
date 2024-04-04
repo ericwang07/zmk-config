@@ -29,7 +29,7 @@
   space_num_##num: space_num_##num { \
     compatible = "zmk,behavior-macro"; \
     \#binding-cells = <0>; \
-    bindings = <&macro_tap &kp SPACE &kp N##num>; \
+    bindings = <&macro_tap &kp LGUI &kp N##num>; \
   };
 
 #define TMUX_NUM(num) \
