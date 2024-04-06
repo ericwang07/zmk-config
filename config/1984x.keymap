@@ -76,10 +76,10 @@
   };
 
   behaviors {
-    lalt_gresc: grave_escape {
+    lctrl_gresc: grave_escape {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&mt LALT ESC>, <&kp GRAVE>;
+      bindings = <&mt LCTRL ESC>, <&kp GRAVE>;
       mods = <(MOD_LGUI)>;
       keep-mods = <(MOD_LGUI)>;
     };
@@ -169,8 +169,8 @@
       bindings = <
    &kp Q            &kp W            &kp E            &kp R            &kp T                    &kp Y            &kp U            &kp I            &kp O            &kp P
    &kp A            &kp S            &kp D            &kp F            &kp G                    &kp H            &kp J            &kp K            &kp L            &kp SEMI
-   &hm LCTRL Z      &hm LSFT X       &kp C            &kp V            &kp B                    &kp N            &kp M            &kp COMMA        &hm RGUI DOT     &hmt RCTRL FSLH
-                                     &lalt_gresc      &lhp NUM TAB     &mt LGUI BSPC            &kp SPACE        &nav_caps        &sftent RSFT RET
+   &hm LSFT Z       &kp X            &kp C            &kp V            &kp B                    &kp N            &kp M            &kp COMMA        &hm RGUI DOT     &hmt RCTRL FSLH
+                                     &lctrl_gresc     &lhp NUM TAB     &mt LGUI BSPC            &kp SPACE        &nav_caps        &sftent RSFT RET
       >;
     };
 
