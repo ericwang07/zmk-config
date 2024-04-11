@@ -79,7 +79,7 @@
     lalt_gresc: grave_escape {
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
-      bindings = <&mt LALT ESC>, <&kp GRAVE>;
+      bindings = <&mt LCTRL ESC>, <&kp GRAVE>;
       mods = <(MOD_LGUI)>;
       keep-mods = <(MOD_LGUI)>;
     };
@@ -169,7 +169,7 @@
       bindings = <
    &kp Q            &kp W            &kp E            &kp R            &kp T                    &kp Y            &kp U            &kp I            &kp O            &kp P
    &kp A            &kp S            &kp D            &kp F            &kp G                    &kp H            &kp J            &kp K            &kp L            &kp SEMI
-   &hm LCTRL Z      &hm LSFT X       &kp C            &kp V            &kp B                    &kp N            &kp M            &kp COMMA        &hm RGUI DOT     &hmt RCTRL FSLH
+   &hm LSFT Z      &hm LALT X       &kp C            &kp V            &kp B                    &kp N            &kp M            &kp COMMA        &hm RGUI DOT     &hmt RCTRL FSLH
                                      &lalt_gresc      &lhp NUM TAB     &mt LGUI BSPC            &kp SPACE        &nav_caps        &sftent RSFT RET
       >;
     };
@@ -178,7 +178,7 @@
       bindings = <
    &kp N1           &kp N2           &kp N3           &kp N4           &kp N5                   &kp N6           &kp N7           &kp N8           &kp N9           &kp N0
    &kp TILDE        &kp EXCL         &kp STAR         &kp MINUS         &kp PLUS                 &kp SQT         &kp LBRC        &kp LPAR         &kp LBKT         &kp AMPS
-   &hm LCTRL GRAVE  &hm LSFT BSLH    &kp DLLR         &kp UNDER         &kp EQUAL                 &kp DQT        &kp RBRC        &kp RPAR        &hm RGUI RBKT    &hmt RCTRL PIPE
+   &hm LSFT GRAVE  &hm LALT BSLH    &kp DLLR         &kp UNDER         &kp EQUAL                 &kp DQT        &kp RBRC        &kp RPAR        &hm RGUI RBKT    &hmt RCTRL PIPE
                                      &mo SYSTEM       &trans           &trans                   &trans           &trans           &trans
       >;
     };
@@ -187,8 +187,8 @@
       bindings = <
    &none            &none            &none            &none            &none                    &vol_dn          &vol_up          &kp C_PP         &none            &kp DEL
    &none            &none            &none            &none            &none                    &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp PG_UP
-   &kp LCTRL        &kp LSFT         &none            &none            &none                    &kp HOME         &kp END          &kp K_APP        &kp INS          &kp PG_DN
-                                     &kp LALT         &trans           &mt LGUI LA(BSPC)        &trans           &trans           &mo SYSTEM
+   &kp LSFT        &kp LALT         &none            &none            &none                    &kp HOME         &kp END          &kp K_APP        &kp INS          &kp PG_DN
+                                     &kp LCTRL         &trans           &mt LGUI LA(BSPC)        &trans           &trans           &mo SYSTEM
       >;
     };
 
