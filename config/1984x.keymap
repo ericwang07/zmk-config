@@ -194,7 +194,7 @@
 
     app_layer {
       bindings = <
-   &none            &none            &none            &none            &none                    &vol_dn          &kp C_BRI_UP     &kp C_BRI_DN     &vol_up          &vol_dn
+   &none            &none            &none            &none            &none                    &kp C_BRI_UP     &kp C_BRI_DN     &kp C_PP         &vol_up          &vol_dn
    &tmux_num_1      &tmux_num_2      &tmux_num_3      &tmux_num_4      &tmux_num_5              &tmux_num_6      &tmux_num_7      &tmux_num_8      &tmux_num_9      &tmux_num_0
    &none            &none            &none            &none            &none                    &none            &none            &none            &none            &none
  //&kp F1           &kp F2           &kp F3           &kp F4           &kp F5                   &kp F6           &kp F7           &kp F8           &kp F9           &kp F10
