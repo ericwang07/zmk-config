@@ -170,7 +170,7 @@
    &kp Q            &kp W            &kp E            &kp R            &kp T                    &kp Y            &kp U            &kp I            &kp O            &kp P
    &kp A            &kp S            &kp D            &kp F            &kp G                    &kp H            &kp J            &kp K            &kp L            &kp SEMI
    &hm LSFT Z       &hm LALT X       &kp C            &kp V            &kp B                    &kp N            &kp M            &kp COMMA        &hm RGUI DOT     &hmt RCTRL FSLH
-                                     &mt LGUI TAB     &lhp NUM ESC     &hm LCTRL BSPC           &hm RSFT SPACE   &lhp NAV RET     &hm RGUI DEL 
+                                     &mt LGUI TAB     &lhp NUM ESC     &hm LCTRL BSPC           &sftent RSFT SPACE   &lhp NAV RET     &hm RALT DEL 
       >;
     };
 
